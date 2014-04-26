@@ -4,6 +4,7 @@ http://blooming-gorge-5340.herokuapp.com/
 - git add .
 - git commit -m 'msg'
 - git push heroku master
+- heroku run python manage.py shell
 
 run locally:
 http://0.0.0.0:5000/

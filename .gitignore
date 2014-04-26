@@ -3,3 +3,4 @@ venv
 staticfiles
 .DS_Store
 sanihand/.idea/*
+local_settings.py
