@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/admin.py" afterPath="$PROJECT_DIR$/tracking/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/models.py" afterPath="$PROJECT_DIR$/tracking/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/views.py" afterPath="$PROJECT_DIR$/tracking/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanihand.iws" />
@@ -41,11 +40,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="2" selection-start="69" selection-end="78" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
+                <state line="8" column="20" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tracking/admin.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="20" selection-start="126" selection-end="126" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -83,12 +93,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/urls.py">
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tracking/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="1" selection-start="305" selection-end="305" vertical-scroll-proportion="0.25821596" vertical-offset="0" max-vertical-offset="639">
+                <state line="10" column="1" selection-start="283" selection-end="283" vertical-scroll-proportion="0.23474178" vertical-offset="0" max-vertical-offset="639">
                   <folding>
-                    <element signature="e#0#51#0" expanded="true" />
+                    <element signature="e#0#28#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -115,6 +125,7 @@
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/tracking/views.py" />
         <option value="$PROJECT_DIR$/tracking/models.py" />
+        <option value="$PROJECT_DIR$/tracking/admin.py" />
       </list>
     </option>
   </component>
@@ -486,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -509,6 +513,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -518,10 +536,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
+    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="69" selection-end="78" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
-          <folding />
+        <state line="3" column="20" selection-start="126" selection-end="126" vertical-scroll-proportion="0.07154213" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,3 +1,5 @@
 from django.contrib import admin
-
-# Register your models here.
+import tracking.models
+from tracking.models import Beacon, BeaconCheckin
+admin.site.register(BeaconCheckin)
+admin.site.register(Beacon)

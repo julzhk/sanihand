@@ -8,7 +8,7 @@ class Beacon(models.Model):
 
     def __str__(self):
         return '%s id:%s' % (self.name, self.beacon_id)
-
+B
 class BeaconCheckin(models.Model):
     date = models.DateTimeField(auto_now_add=True, blank=True)
     user = models.TextField()
