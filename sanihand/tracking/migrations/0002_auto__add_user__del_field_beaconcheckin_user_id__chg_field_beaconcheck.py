@@ -15,6 +15,9 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal(u'tracking', ['User'])
 
+        # Deleting field 'BeaconCheckin.user_id'
+        db.delete_column(u'tracking_beaconcheckin', 'user_id')
+
 
         # Renaming column for 'BeaconCheckin.user' to match new field type.
         db.rename_column(u'tracking_beaconcheckin', 'user', 'user_id')
@@ -30,6 +33,11 @@ class Migration(SchemaMigration):
 
         # Deleting model 'User'
         db.delete_table(u'tracking_user')
+
+        # Adding field 'BeaconCheckin.user_id'
+        db.add_column(u'tracking_beaconcheckin', 'user_id',
+                      self.gf('django.db.models.fields.TextField')(default=0),
+                      keep_default=False)
 
 
         # Renaming column for 'BeaconCheckin.user' to match new field type.
@@ -50,8 +58,7 @@ class Migration(SchemaMigration):
             'beacon': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['tracking.Beacon']"}),
             'date': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['tracking.User']"}),
-            'user_id': ('django.db.models.fields.TextField', [], {})
+            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['tracking.User']"})
         },
         u'tracking.user': {
             'Meta': {'object_name': 'User'},

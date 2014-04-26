@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tracking/migrations/0002_auto__add_user__chg_field_beaconcheckin_user__add_index_beaconcheckin_.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/models.py" afterPath="$PROJECT_DIR$/tracking/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanihand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +38,7 @@
           <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tracking/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="33" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+                <state line="26" column="21" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -45,7 +49,7 @@
           <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="0" selection-start="362" selection-end="373" vertical-scroll-proportion="0.39110428" vertical-offset="0" max-vertical-offset="652">
+                <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.0690184" vertical-offset="0" max-vertical-offset="652">
                   <folding />
                 </state>
               </provider>
@@ -146,8 +150,8 @@
         <option value="$PROJECT_DIR$/templates/tracking/report.html" />
         <option value="$PROJECT_DIR$/tracking/views.py" />
         <option value="$PROJECT_DIR$/tracking/tests.py" />
-        <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/tracking/admin.py" />
+        <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/notes.txt" />
       </list>
     </option>
@@ -213,6 +217,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanihand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanihand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -959,15 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="24" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -977,9 +990,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="362" selection-end="373" vertical-scroll-proportion="0.39110428" vertical-offset="0" max-vertical-offset="652">
+        <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.0690184" vertical-offset="0" max-vertical-offset="652">
           <folding />
         </state>
       </provider>
