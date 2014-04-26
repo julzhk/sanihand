@@ -13,5 +13,6 @@ http://0.0.0.0:5000/
 
 python manage.py schemamigration tracking --auto
 python manage.py migrate tracking
+python manage.py runserver
 
 heroku run python manage.py migrate tracking
