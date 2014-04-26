@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/models.py" afterPath="$PROJECT_DIR$/tracking/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/tests.py" afterPath="$PROJECT_DIR$/tracking/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/views.py" afterPath="$PROJECT_DIR$/tracking/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/admin.py" afterPath="$PROJECT_DIR$/tracking/admin.py" />
     </list>
     <ignored path="sanihand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +42,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="44" selection-start="335" selection-end="379" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="652">
+                <state line="5" column="2" selection-start="103" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tracking/admin.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="24" selection-start="185" selection-end="185" vertical-scroll-proportion="0.09389672" vertical-offset="0" max-vertical-offset="639">
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -128,7 +135,6 @@
       <list>
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/local_settings.py" />
-        <option value="$PROJECT_DIR$/tracking/admin.py" />
         <option value="/private/var/folders/41/rp0y6k_12nb61y922752x6j80000gn/T/tmpRestClientResponse4493105082674440396.html" />
         <option value="/private/var/folders/41/rp0y6k_12nb61y922752x6j80000gn/T/tmpRestClientResponse3910068437257760812.xml" />
         <option value="/private/var/folders/41/rp0y6k_12nb61y922752x6j80000gn/T/tmpRestClientResponse7876052617445626205.xml" />
@@ -142,6 +148,7 @@
         <option value="$PROJECT_DIR$/tracking/tests.py" />
         <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/tracking/admin.py" />
       </list>
     </option>
   </component>
@@ -883,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="47" selection-end="47" vertical-scroll-proportion="0.054545455" vertical-offset="0" max-vertical-offset="275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.10895884" vertical-offset="0" max-vertical-offset="885">
@@ -970,8 +970,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="335" selection-end="379" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="652">
+        <state line="5" column="2" selection-start="103" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="185" selection-end="185" vertical-scroll-proportion="0.09389672" vertical-offset="0" max-vertical-offset="639">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
