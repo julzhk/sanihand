@@ -9,12 +9,16 @@ class Beacon(models.Model):
     def __str__(self):
         return '%s id:%s' % (self.name, self.beacon_id)
 
+    def to_dict(self):
+        self_dict = self.__dict__
+        r = {k: self_dict[k] for k in self_dict if k[0] != '_'}
+        return r
+
 class BeaconCheckin(models.Model):
     date = models.DateTimeField(auto_now_add=True, blank=True)
     user = models.TextField()
     user_id = models.TextField()
     beacon= models.ForeignKey(Beacon)
-
 
     def __str__(self):
         return 'checkin id %s ' % (self.id or '-')
