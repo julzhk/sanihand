@@ -19,9 +19,11 @@ def dashboard(request):
     '''
      give overview of who's doing well
     '''
+    all_users = User.objects.all()
     t = get_template('tracking/report.html')
 
-    html = t.render(Context({}))
+
+    html = t.render(Context({'users':all_users }))
     return HttpResponse(html)
 
 

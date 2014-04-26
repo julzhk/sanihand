@@ -6,6 +6,9 @@ class User(models.Model):
     clean_count = models.IntegerField(default=0)
     dirty_count = models.IntegerField(default=0)
 
+    class Meta:
+        ordering = ['dirty_count']
+
     def __str__(self):
         return '%s id:%s' % (self.name, self.id)
 

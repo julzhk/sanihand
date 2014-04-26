@@ -4,5 +4,16 @@
 
 {% block content %}
     <h1 id="navbar">Ranking</h1>
-<p>In {{ hour_offset }} hour(s), it will be {{ next_time }}.</p>
+    <div class="row">
+    {% for user in users %}
+        <div class="col-md-4 box">
+        <h2 class="name">
+            {{ user.name }}
+        </h2>
+        <h3 class="dirty-score">
+            {{ user.dirty_count }}
+        </h3>
+        </div>
+    {% endfor %}
 {% endblock %}
+</div>
