@@ -6,10 +6,24 @@ from django.db.models.loading import get_model
 from django.core.exceptions import FieldError, ObjectDoesNotExist
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.decorators.csrf import csrf_exempt
+from django.template.loader import get_template
+from django.template import Context
+from django.http import HttpResponse
+
 
 from models import Beacon, BeaconCheckin
 def home(request):
     return HttpResponse('hi')
+
+def dashboard(request):
+    '''
+     give overview of who's doing well
+    '''
+    t = get_template('tracking/report.html')
+    
+    html = t.render(Context({}))
+    return HttpResponse(html)
+
 
 def get_beacon(request, beaconid=None):
     if beaconid == '':
