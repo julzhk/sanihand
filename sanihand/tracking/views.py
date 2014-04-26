@@ -9,9 +9,9 @@ from django.views.decorators.csrf import csrf_exempt
 from django.template.loader import get_template
 from django.template import Context
 from django.http import HttpResponse
+from models import Beacon, BeaconCheckin, User
 
 
-from models import Beacon, BeaconCheckin
 def home(request):
     return HttpResponse('hi')
 
@@ -20,7 +20,7 @@ def dashboard(request):
      give overview of who's doing well
     '''
     t = get_template('tracking/report.html')
-    
+
     html = t.render(Context({}))
     return HttpResponse(html)
 
@@ -43,8 +43,9 @@ def get_beacon(request, beaconid=None):
 @csrf_exempt
 def checkin_beacon(request):
     data = request.POST
+    user, created = User.objects.get_or_create(name=data['name'])
     checkin = BeaconCheckin(
-                    user =data['user'],
+                    user =user,
                     beacon = Beacon.objects.get(
                                 beacon_id = data['beacon_id']
                     )

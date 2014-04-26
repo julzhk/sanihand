@@ -1,6 +1,13 @@
 from django.db import models
 from datetime import datetime
 
+class User(models.Model):
+    name = models.TextField()
+
+    def __str__(self):
+        return '%s id:%s' % (self.name, self.id)
+
+
 class Beacon(models.Model):
     name = models.TextField()
     is_clean = models.BooleanField(default=True)
@@ -16,10 +23,13 @@ class Beacon(models.Model):
 
 class BeaconCheckin(models.Model):
     date = models.DateTimeField(auto_now_add=True, blank=True)
-    user = models.TextField()
+    user = models.ForeignKey(User)
     user_id = models.TextField()
     beacon= models.ForeignKey(Beacon)
 
     def __str__(self):
         return 'checkin id %s ' % (self.id or '-')
+
+    def user_scores(self):
+        return 0
 

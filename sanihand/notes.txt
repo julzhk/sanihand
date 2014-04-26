@@ -11,3 +11,7 @@ run locally:
 http://0.0.0.0:5000/
 - foreman start
 
+python manage.py schemamigration tracking --auto
+python manage.py migrate tracking
+
+heroku run python manage.py migrate tracking
