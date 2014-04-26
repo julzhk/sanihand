@@ -9,7 +9,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.template.loader import get_template
 from django.template import Context
 from django.http import HttpResponse
-from models import Beacon, BeaconCheckin, User
+from models import Beacon, User
 
 
 def home(request):
@@ -43,16 +43,15 @@ def get_beacon(request, beaconid=None):
 @csrf_exempt
 def checkin_beacon(request):
     data =  json.loads(request.body)
+    # user, clean_count, dirty_count
     user, usercreated = User.objects.get_or_create(name=data['user'])
-    beacon, beaconcreated = Beacon.objects.get_or_create(beacon_id=data['beacon_id'])
+    user.clean_count = int(data['clean_count']) or 0
+    user.dirty_count = int(data['dirty_count']) or 0
+    user.save()
+    beacon, beaconcreated = Beacon.objects.get_or_create(
+            beacon_id=data['beacon_id']
+    )
     if beaconcreated:
         beacon.name = 'beacon no %s ' % beacon.id
         beacon.save()
-    checkin = BeaconCheckin(
-                    user =user,
-                    beacon = Beacon.objects.get(
-                                beacon_id = data['beacon_id']
-                    )
-    )
-    checkin.save()
     return HttpResponse(str(data))

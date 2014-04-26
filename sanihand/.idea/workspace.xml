@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/admin.py" afterPath="$PROJECT_DIR$/tracking/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/models.py" afterPath="$PROJECT_DIR$/tracking/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/views.py" afterPath="$PROJECT_DIR$/tracking/views.py" />
     </list>
     <ignored path="sanihand.iws" />
@@ -28,13 +31,13 @@
     <favorites_list name="sanihand" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5019048">
+    <splitter split-orientation="horizontal" split-proportion="0.41238096">
       <split-first>
         <leaf>
           <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tracking/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+                <state line="5" column="15" selection-start="120" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -45,7 +48,7 @@
           <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="15" selection-start="67" selection-end="92" vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="390">
+                <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.11764706" vertical-offset="13" max-vertical-offset="390">
                   <folding />
                 </state>
               </provider>
@@ -54,10 +57,8 @@
           <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tracking/admin.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="24" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
-                  </folding>
+                <state line="1" column="45" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -80,9 +81,10 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tracking/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="22" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.24710424" vertical-offset="611" max-vertical-offset="960">
+                <state line="48" column="52" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.28308824" vertical-offset="463" max-vertical-offset="765">
                   <folding>
                     <element signature="e#0#49#0" expanded="true" />
+                    <element signature="e#792#1232#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -126,10 +128,10 @@
         <option value="$PROJECT_DIR$/templates/tracking/base.html" />
         <option value="$PROJECT_DIR$/templates/tracking/report.html" />
         <option value="$PROJECT_DIR$/tracking/tests.py" />
-        <option value="$PROJECT_DIR$/tracking/admin.py" />
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/tracking/views.py" />
+        <option value="$PROJECT_DIR$/tracking/admin.py" />
       </list>
     </option>
   </component>
@@ -258,6 +260,70 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/checkin/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="user" />
+                <option name="value" value="julz2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="beacon_id" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="'{user:&quot;julz3&quot;,clean_count: &quot;2&quot;,dirty_count:&quot;4&quot;}'" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/checkin/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="user" />
+                <option name="value" value="julz2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="beacon_id" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{user:&quot;julz3&quot;,clean_count: &quot;2&quot;,dirty_count:&quot;4&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://127.0.0.1:8000" />
@@ -1120,15 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -1156,7 +1213,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="5" column="15" selection-start="120" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -1165,16 +1222,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.24710424" vertical-offset="611" max-vertical-offset="960">
+        <state line="48" column="52" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.28308824" vertical-offset="463" max-vertical-offset="765">
           <folding>
             <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#792#1232#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="45" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="67" selection-end="92" vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="390">
+        <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.11764706" vertical-offset="13" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
