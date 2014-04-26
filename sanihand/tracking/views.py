@@ -47,6 +47,7 @@ def checkin_beacon(request):
     beacon, beaconcreated = Beacon.objects.get_or_create(beacon_id=data['beacon_id'])
     if beaconcreated:
         beacon.name = 'beacon no %s ' % beacon.id
+        beacon.save()
     checkin = BeaconCheckin(
                     user =user,
                     beacon = Beacon.objects.get(

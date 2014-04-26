@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/views.py" afterPath="$PROJECT_DIR$/tracking/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanihand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +42,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="15" selection-start="67" selection-end="92" vertical-scroll-proportion="0.09202454" vertical-offset="0" max-vertical-offset="652">
+                <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.115030676" vertical-offset="0" max-vertical-offset="652">
                   <folding />
                 </state>
               </provider>
@@ -81,10 +79,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/tracking/views.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="48" column="40" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.647651" vertical-offset="527" max-vertical-offset="945">
+                    <state line="49" column="20" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.6979866" vertical-offset="527" max-vertical-offset="960">
                       <folding>
                         <element signature="e#0#49#0" expanded="true" />
                       </folding>
@@ -110,7 +108,7 @@
               <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/tracking/views.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="45" column="22" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.3458904" vertical-offset="574" max-vertical-offset="945">
+                    <state line="45" column="22" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.3458904" vertical-offset="574" max-vertical-offset="960">
                       <folding>
                         <element signature="e#0#49#0" expanded="true" />
                       </folding>
@@ -988,19 +986,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/views.py">
+    <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="40" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.647651" vertical-offset="527" max-vertical-offset="945">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.115030676" vertical-offset="0" max-vertical-offset="652">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
+    <entry file="file://$PROJECT_DIR$/tracking/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="67" selection-end="92" vertical-scroll-proportion="0.09202454" vertical-offset="0" max-vertical-offset="652">
-          <folding />
+        <state line="49" column="20" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.6979866" vertical-offset="527" max-vertical-offset="960">
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
