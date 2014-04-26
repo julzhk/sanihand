@@ -23,7 +23,7 @@ class Beacon(models.Model):
 
 class BeaconCheckin(models.Model):
     date = models.DateTimeField(auto_now_add=True, blank=True)
-    user = models.ForeignKey(User)
+    # user = models.ForeignKey(User)
     beacon= models.ForeignKey(Beacon)
 
     def __str__(self):

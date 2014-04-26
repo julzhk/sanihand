@@ -2,8 +2,10 @@ commit & push to heroku
 http://blooming-gorge-5340.herokuapp.com/
 
 git add .
-git commit -m 'msg'
+git commit -m '
 git push heroku master
+heroku run python manage.py migrate tracking
+
 heroku run python manage.py shell
 heroku run python manage.py syncdb
 
@@ -15,4 +17,4 @@ python manage.py schemamigration tracking --auto
 python manage.py migrate tracking
 python manage.py runserver
 
-heroku run python manage.py migrate tracking
+
