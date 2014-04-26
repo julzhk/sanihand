@@ -43,7 +43,8 @@ def get_beacon(request, beaconid=None):
 @csrf_exempt
 def checkin_beacon(request):
     data = request.POST
-    user, usercreated = User.objects.get_or_create(name=data['name'])
+    logging.info(str(data))
+    user, usercreated = User.objects.get_or_create(name=data['user'])
     beacon, beaconcreated = Beacon.objects.get_or_create(beacon_id=data['beacon_id'])
     if beaconcreated:
         beacon.name = 'beacon no %s ' % beacon.id
