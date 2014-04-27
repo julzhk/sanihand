@@ -3,7 +3,16 @@
 <head>
     <title>Hand Sanitation dashboard</title>
     <link rel="stylesheet" href="/static/bootstrap.min.css" media="screen">
+    {% block meta %}{% endblock %}
     <style>
+        .number {
+            margin: -6px;
+            opacity:0.4;
+        }
+        .logo {
+            width: 60px;
+            float: right;
+        }
         .box{
             background-color: red;
             padding: 10px;
@@ -12,11 +21,42 @@
         .name, .dirty-score{
             text-align: center;
         }
+        .king {
+            background-color: #f39c12 !important;
+            background-image:url('/static/crown_orange.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+
+        .top{
+            background-color: green
+        }
+
     </style>
 </head>
 <body>
+
+<div style="float: right;">
+    <button type="button" class="btn btn-primary">
+        <a href="/">
+            Dashboard
+        </a>
+    </button>
+    <button type="button" class="btn btn-primary">
+        <a href="/report">
+            Report
+        </a>
+    </button>
+    <button type="button" class="btn btn-default">
+        <a href="/admin">
+            Consultant
+        </a>
+    </button>
+</div>
+
 {% block content %}
 content
-{% endblock %}
+{% endblock %}<br style="clear: both;">
+<img src="/static/web_logo.png" class="logo">
 </body>
 </html>

@@ -1,0 +1,33 @@
+{% extends "tracking/base.html" %}
+
+{% block title %}Future time{% endblock %}
+{% block meta %}
+    <meta http-equiv="refresh" content="3">
+{% endblock %}
+
+{% block content %}
+    <h1 id="navbar offset2">Dashboard</h1>
+    <div class="row-fluid">
+    {% for user in users %}
+
+        <div class="col-md-2 box
+        {% if forloop.first %}
+            king
+        {% endif %}
+        {% if forloop.counter < half_count %}
+            top
+        {% endif %}">
+        <h1 class="number">
+            {{ forloop.counter }}
+        </h1>
+        <h2 class="name">
+            {{ user.name }}
+        </h2>
+        <h3 class="dirty-score">
+            clean: {{ user.clean_count }}<br>
+            dirty: {{ user.dirty_count }}
+        </h3>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

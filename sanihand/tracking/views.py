@@ -20,11 +20,24 @@ def dashboard(request):
      give overview of who's doing well
     '''
     all_users = User.objects.all()
-    t = get_template('tracking/report.html')
-
-
-    html = t.render(Context({'users':all_users }))
+    t = get_template('tracking/dashboard.html')
+    html = t.render(Context({
+        'users':all_users,
+        'name_count': len(all_users),
+        'half_count': len(all_users)/2 + 1
+    }))
     return HttpResponse(html)
+
+def report(request):
+    '''
+     give overview of who's doing well as a team oriented list
+    '''
+    all_users = User.objects.all()
+    t = get_template('tracking/report.html')
+    html = t.render(Context({'users':all_users,
+                             'name_count': len(all_users) }))
+    return HttpResponse(html)
+
 
 
 def get_beacon(request, beaconid=None):
@@ -46,7 +59,7 @@ def get_beacon(request, beaconid=None):
 def checkin_beacon(request):
     data =  json.loads(request.body)
     # user, clean_count, dirty_count
-    user, usercreated = User.objects.get_or_create(name=data['user'])
+    user, usercreated = User.objects.get_or_create(name=data['user'] or 'anon')
     user.clean_count = int(data['clean_count']) or 0
     user.dirty_count = int(data['dirty_count']) or 0
     user.save()
