@@ -3,6 +3,7 @@ from datetime import datetime
 
 class User(models.Model):
     name = models.TextField()
+    dept = models.TextField()
     clean_count = models.IntegerField(default=0)
     dirty_count = models.IntegerField(default=0)
 
