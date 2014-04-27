@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/base.html" afterPath="$PROJECT_DIR$/templates/tracking/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -57,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="1.875" vertical-offset="255" max-vertical-offset="1020">
+            <state line="20" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1035">
               <folding>
                 <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -68,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="202" selection-end="202" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="705">
+            <state line="28" column="26" selection-start="696" selection-end="696" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -106,8 +107,8 @@
         <option value="$PROJECT_DIR$/tracking/views.py" />
         <option value="$PROJECT_DIR$/templates/tracking/report.html" />
         <option value="$PROJECT_DIR$/tracking/models.py" />
-        <option value="$PROJECT_DIR$/templates/tracking/base.html" />
         <option value="$PROJECT_DIR$/templates/tracking/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/tracking/base.html" />
       </list>
     </option>
   </component>
@@ -1242,19 +1243,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="1.875" vertical-offset="255" max-vertical-offset="1020">
-          <folding>
-            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="28" column="26" selection-start="696" selection-end="696" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="202" selection-end="202" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="705">
-          <folding />
+        <state line="20" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1035">
+          <folding>
+            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
