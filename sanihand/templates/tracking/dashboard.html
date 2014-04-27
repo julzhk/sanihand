@@ -23,6 +23,14 @@
         <h2 class="name">
             {{ user.name }}
         </h2>
+
+            <p class="dept">
+                {% if user.dept %}
+                    team: {{ user.dept }}
+                {% else %}
+                &nbsp;
+                {% endif %}
+            </p>
         <h3 class="dirty-score">
             clean: {{ user.clean_count }}<br>
             dirty: {{ user.dirty_count }}

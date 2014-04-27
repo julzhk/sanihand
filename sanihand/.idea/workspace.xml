@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/crown_orange.png" afterPath="$PROJECT_DIR$/static/crown_orange.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/web_logo.png" afterPath="$PROJECT_DIR$/static/web_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/models.py" afterPath="$PROJECT_DIR$/tracking/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/base.html" afterPath="$PROJECT_DIR$/templates/tracking/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/dashboard.html" afterPath="$PROJECT_DIR$/templates/tracking/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanihand.iws" />
@@ -54,7 +53,25 @@
       <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.06880734" vertical-offset="0" max-vertical-offset="654">
+            <state line="6" column="35" selection-start="116" selection-end="151" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="654">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="9" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -88,9 +105,9 @@
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/tracking/views.py" />
         <option value="$PROJECT_DIR$/templates/tracking/report.html" />
+        <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/templates/tracking/base.html" />
         <option value="$PROJECT_DIR$/templates/tracking/dashboard.html" />
-        <option value="$PROJECT_DIR$/tracking/models.py" />
       </list>
     </option>
   </component>
@@ -1204,20 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="202" selection-end="202" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="276" selection-end="276" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tracking/report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="210" selection-end="211" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="375">
@@ -1232,9 +1235,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="67" selection-end="76" vertical-scroll-proportion="0.06880734" vertical-offset="0" max-vertical-offset="654">
+        <state line="6" column="35" selection-start="116" selection-end="151" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="654">
           <folding />
         </state>
       </provider>
