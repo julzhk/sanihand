@@ -1,20 +1,23 @@
 {% extends "tracking/base.html" %}
 
-{% block title %}Future time{% endblock %}
+{% block title %}Report{% endblock %}
 
 {% block content %}
-    <h1 id="navbar">Ranking</h1>
-    <div class="row">
-    {% for user in users %}
-        <div class="col-md-4 box">
-        <h2 class="name">
-            {{ user.name }}
-        </h2>
-        <h3 class="dirty-score">
-            {{ user.clean_count }}/
-            {{ user.dirty_count }}
-        </h3>
-        </div>
-    {% endfor %}
+    <h1 id="navbar">Team Rankings</h1>
+    <h1 class="col-lg-offset-1">
+                    Teams
+                </h1>
+        {% for user in users%}
+            {% ifchanged %}
+                <h1 class="col-lg-offset-2">
+                    {{ user.dept }}
+                </h1>
+            {% endifchanged %}
+            <p class="col-lg-offset-4">
+            {{ user.name }} - Potential Infection Events : {{ user.dirty_count }}
+        </p>
+        </h1>
+        {% endfor %}
+
 {% endblock %}
 </div>

@@ -10,6 +10,7 @@ from django.template.loader import get_template
 from django.template import Context
 from django.http import HttpResponse
 from models import Beacon, User
+from collections import defaultdict
 
 
 def home(request):
@@ -32,10 +33,11 @@ def report(request):
     '''
      give overview of who's doing well as a team oriented list
     '''
-    all_users = User.objects.all()
+    all_users = User.objects.all().order_by('dept')
+
     t = get_template('tracking/report.html')
     html = t.render(Context({'users':all_users,
-                             'name_count': len(all_users) }))
+                              }))
     return HttpResponse(html)
 
 
