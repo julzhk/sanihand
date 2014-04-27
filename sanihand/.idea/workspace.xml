@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <ignored path="sanihand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="0.45786518" vertical-offset="257" max-vertical-offset="1740">
+            <state line="26" column="12" selection-start="778" selection-end="782" vertical-scroll-proportion="0.3735955" vertical-offset="257" max-vertical-offset="1740">
               <folding />
             </state>
           </provider>
@@ -1253,7 +1252,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="0.45786518" vertical-offset="257" max-vertical-offset="1740">
+        <state line="26" column="12" selection-start="778" selection-end="782" vertical-scroll-proportion="0.3735955" vertical-offset="257" max-vertical-offset="1740">
           <folding />
         </state>
       </provider>
