@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/base.html" afterPath="$PROJECT_DIR$/templates/tracking/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/dashboard.html" afterPath="$PROJECT_DIR$/templates/tracking/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanihand.iws" />
@@ -50,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="116" selection-end="151" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="654">
+            <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -62,16 +60,18 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="9" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1005">
-              <folding />
+            <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="1.875" vertical-offset="255" max-vertical-offset="1020">
+              <folding>
+                <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="705">
+            <state line="8" column="26" selection-start="202" selection-end="202" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -1235,23 +1235,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="771" selection-end="771" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
+        <state line="14" column="25" selection-start="368" selection-end="368" vertical-scroll-proportion="1.875" vertical-offset="255" max-vertical-offset="1020">
+          <folding>
+            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="786" selection-end="786" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="116" selection-end="151" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="654">
+        <state line="8" column="26" selection-start="202" selection-end="202" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
