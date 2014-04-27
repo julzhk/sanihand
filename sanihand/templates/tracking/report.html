@@ -9,13 +9,15 @@
                 </h1>
         {% for user in users%}
             {% ifchanged %}
-                <h1 class="col-lg-offset-2">
+                <h1 class="col-lg-offset-2 table-bordered">
                     {{ user.dept }}
                 </h1>
             {% endifchanged %}
-            <p class="col-lg-offset-4">
-            {{ user.name }} - Potential Infection Events : {{ user.dirty_count }}
-        </p>
+            <ul>
+            <li class="col-lg-offset-3">
+                {{ user.name }} - Potential Infection Events : {{ user.dirty_count }}
+            </li>
+            </ul>
         </h1>
         {% endfor %}
 
