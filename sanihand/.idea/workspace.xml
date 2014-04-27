@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee33861-4542-4177-8f1b-064daaa39156" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/templats/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tracking/base.html" afterPath="$PROJECT_DIR$/templates/tracking/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/admin.py" afterPath="$PROJECT_DIR$/tracking/admin.py" />
     </list>
     <ignored path="sanihand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,49 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/tracking/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="210" selection-end="211" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1035">
-              <folding>
-                <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tracking/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="26" selection-start="696" selection-end="696" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="705">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracking/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.38073394" vertical-offset="141" max-vertical-offset="990">
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#1264#1704#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +72,6 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/tracking/tests.py" />
         <option value="$PROJECT_DIR$/notes.txt" />
-        <option value="$PROJECT_DIR$/tracking/admin.py" />
         <option value="$PROJECT_DIR$/local_settings_template.py" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/urls.py" />
@@ -109,6 +80,7 @@
         <option value="$PROJECT_DIR$/tracking/models.py" />
         <option value="$PROJECT_DIR$/templates/tracking/dashboard.html" />
         <option value="$PROJECT_DIR$/templates/tracking/base.html" />
+        <option value="$PROJECT_DIR$/tracking/admin.py" />
       </list>
     </option>
   </component>
@@ -1184,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="27" selection-start="410" selection-end="410" vertical-scroll-proportion="0.3440367" vertical-offset="0" max-vertical-offset="654">
@@ -1205,16 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.59906393" vertical-offset="6" max-vertical-offset="990">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#1264#1704#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="53" selection-start="285" selection-end="285" vertical-scroll-proportion="0.14040561" vertical-offset="0" max-vertical-offset="641">
@@ -1222,23 +1177,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="35" selection-start="154" selection-end="154" vertical-scroll-proportion="0.06880734" vertical-offset="0" max-vertical-offset="654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1035">
+          <folding>
+            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.1146789" vertical-offset="0" max-vertical-offset="654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tracking/report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="210" selection-end="211" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="8" column="28" selection-start="210" selection-end="211" vertical-scroll-proportion="0.1904762" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="93" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="5" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.09174312" vertical-offset="0" max-vertical-offset="654">
           <folding />
         </state>
       </provider>
@@ -1250,11 +1221,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tracking/base.html">
+    <entry file="file://$PROJECT_DIR$/tracking/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="511" selection-end="511" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1035">
+        <state line="26" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.38073394" vertical-offset="141" max-vertical-offset="990">
           <folding>
-            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#1264#1704#0" expanded="false" />
           </folding>
         </state>
       </provider>
